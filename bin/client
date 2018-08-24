@@ -54,6 +54,8 @@ var opt = {
     port: argv.port,
     local_host: argv['local-host'],
     subdomain: argv.subdomain,
+    user: argv.user,
+    password: argv.password
 };
 
 const PrintRequests = argv['print-requests'];
