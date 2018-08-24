@@ -33,7 +33,7 @@ var argv = require('yargs')
         alias: 'user',
         describe: 'Username for authenticating at the localtunnel server. Note that you also have to set a password to enable this option.',
     })
-    .option('p', {
+    .option('pass', {
         alias: 'password',
         describe: 'Password for authenticating at the localtunnel server. Note that you also have to set a username to enable this option.',
     })
